@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Regain</string>
+    <string name="accessibility_service_description">Regain Accessibility Service intervenes in user-selected distracting apps to block infinite feeds like Instagram Reels and YouTube Shorts while preserving productive app features.</string>
+</resources>

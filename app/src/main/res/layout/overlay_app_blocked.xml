@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#090E11"
+    android:padding="32dp">
+
+    <!-- Top Headline matching shot_2.png -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block Apps While You Study"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Rega Mascot Vector Image -->
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_rega_mascot"
+        android:contentDescription="Rega Mascot Stop"
+        android:layout_marginBottom="24dp" />
+
+    <!-- App is Blocked Text -->
+    <TextView
+        android:id="@+id/tv_blocked_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instagram is Blocked"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strict Focus Mode is active. No way out until you're done!"
+        android:textColor="#94A3B8"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Return to Focus Button -->
+    <Button
+        android:id="@+id/btn_return_focus"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Return to Focus"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="#166534" />
+
+</LinearLayout>
